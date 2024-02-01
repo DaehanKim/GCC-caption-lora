@@ -1,5 +1,5 @@
 # GCC-caption-lora
-This repo contains codes to train an image captioning model using GCC dataset. You can download, process, train lora weights injected to LM decoder and evaluate the results.
+This repo contains codes to train an image captioning model using [GCC dataset](https://ai.google.com/research/ConceptualCaptions). You can download, process, train lora weights injected to LM decoder and evaluate the results.
 
 ## Dataset Statistics
 
@@ -24,6 +24,7 @@ Captioner model is composed of CLIP image encoder and Flan-T5 decoder. Each inpu
 - **Training Parameters**: Learning rate of 4e-5, batch size of 128, linear learning rate schedule with a 0.2 warmup phase, AdamW optimizer, and bfloat16 training.
 - **Hardware**: Each model is trained on a single A6000 GPU for optimized performance.
 - You can check out [its wandb training log](https://wandb.ai/lucas01/GCC-caption?workspace=user-lucas01).
+- Trained model checkpoints are available in [this google drive link](https://drive.google.com/drive/folders/1t1oFKf3wKGXQTZa3sMgMhwT_WcAobwFh?usp=sharing).
 
 ## Evaluation & Analysis
 
@@ -70,7 +71,7 @@ The evaluation of the model's performance was conducted using CIDEr, BLEU@4, and
 - Using Best-of-N sampling improves CIDEr scores as well across all sizes and lora targets, while somehow compromising syntactic BLEU@4 score.
 - base decoder benefits the most with given hyperparameter settings. (maybe larger model needs more batch)
 
-## Generated Samples
+## Generated Samples (from valid split)
 
 ![image](captioner_sample.png)
 
