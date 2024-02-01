@@ -1,0 +1,84 @@
+Bleu_1: 0.216282
+Bleu_2: 0.106729
+Bleu_3: 0.058411
+Bleu_4: 0.033422
+CIDEr: 0.451966
+{'Bleu_1': 0.2162821029450326, 'Bleu_2': 0.1067289563372452, 'Bleu_3': 0.05841097710892219, 'Bleu_4': 0.03342200706799457, 'CIDEr': 0.4519655124398798}
+above is ../inference_results/base-attn,ffnlora-lr5e-4-epoch4_bestof10_hyp.txt
+Bleu_1: 0.185535
+Bleu_2: 0.100443
+Bleu_3: 0.060556
+Bleu_4: 0.038491
+CIDEr: 0.433637
+{'Bleu_1': 0.1855347052824929, 'Bleu_2': 0.10044291651703253, 'Bleu_3': 0.060555578529375195, 'Bleu_4': 0.03849081449311731, 'CIDEr': 0.43363701296557405}
+above is ../inference_results/base-attn,ffnlora-lr5e-4-epoch4_beam_hyp.txt
+Bleu_1: 0.188350
+Bleu_2: 0.089471
+Bleu_3: 0.047704
+Bleu_4: 0.027097
+CIDEr: 0.373411
+{'Bleu_1': 0.18835026723888687, 'Bleu_2': 0.08947080343951454, 'Bleu_3': 0.04770424353817656, 'Bleu_4': 0.0270971716723534, 'CIDEr': 0.3734112610784635}
+above is ../inference_results/base-attn,ffnlora-lr5e-4-epoch4_sample_hyp.txt
+Bleu_1: 0.209336
+Bleu_2: 0.098056
+Bleu_3: 0.050642
+Bleu_4: 0.027207
+CIDEr: 0.400559
+{'Bleu_1': 0.20933589581236034, 'Bleu_2': 0.0980560938849884, 'Bleu_3': 0.05064154295274152, 'Bleu_4': 0.027207018955917817, 'CIDEr': 0.4005593173276492}
+above is ../inference_results/base-attnlora-lr5e-4-epoch4_bestof10_hyp.txt
+Bleu_1: 0.180889
+Bleu_2: 0.094424
+Bleu_3: 0.054331
+Bleu_4: 0.032958
+CIDEr: 0.381523
+{'Bleu_1': 0.18088874430583352, 'Bleu_2': 0.09442428115985262, 'Bleu_3': 0.0543312197802811, 'Bleu_4': 0.03295802125897734, 'CIDEr': 0.38152262531812864}
+above is ../inference_results/base-attnlora-lr5e-4-epoch4_beam_hyp.txt
+Bleu_1: 0.182404
+Bleu_2: 0.082908
+Bleu_3: 0.042091
+Bleu_4: 0.022762
+CIDEr: 0.326280
+{'Bleu_1': 0.1824043928208729, 'Bleu_2': 0.08290790626743799, 'Bleu_3': 0.042091438817504524, 'Bleu_4': 0.02276197408768852, 'CIDEr': 0.32627974233804186}
+above is ../inference_results/base-attnlora-lr5e-4-epoch4_sample_hyp.txt
+Bleu_1: 0.205754
+Bleu_2: 0.094006
+Bleu_3: 0.046878
+Bleu_4: 0.023893
+CIDEr: 0.382243
+{'Bleu_1': 0.20575441725257285, 'Bleu_2': 0.09400579532268434, 'Bleu_3': 0.04687793352337787, 'Bleu_4': 0.02389282878353628, 'CIDEr': 0.38224308283000114}
+above is ../inference_results/large-attlora-lr5e-4-epoch4_bestof10_hyp.txt
+Bleu_1: 0.168858
+Bleu_2: 0.088087
+Bleu_3: 0.049217
+Bleu_4: 0.028173
+CIDEr: 0.350643
+{'Bleu_1': 0.1688579241036111, 'Bleu_2': 0.08808669542840275, 'Bleu_3': 0.049216544523448556, 'Bleu_4': 0.02817259858956034, 'CIDEr': 0.3506426638762638}
+above is ../inference_results/large-attlora-lr5e-4-epoch4_beam_hyp.txt
+Bleu_1: 0.178890
+Bleu_2: 0.079575
+Bleu_3: 0.039267
+Bleu_4: 0.020536
+CIDEr: 0.322553
+{'Bleu_1': 0.17888999137977338, 'Bleu_2': 0.07957534626436429, 'Bleu_3': 0.039267468548054046, 'Bleu_4': 0.020536034556917913, 'CIDEr': 0.32255264364816394}
+above is ../inference_results/large-attlora-lr5e-4-epoch4_sample_hyp.txt
+Bleu_1: 0.213465
+Bleu_2: 0.101726
+Bleu_3: 0.053420
+Bleu_4: 0.029355
+CIDEr: 0.421789
+{'Bleu_1': 0.2134649521700814, 'Bleu_2': 0.10172571783165009, 'Bleu_3': 0.05342026544763836, 'Bleu_4': 0.029354963659741076, 'CIDEr': 0.4217892899398073}
+above is ../inference_results/large-attn,ffnlora-lr5e-4-epoch4_bestof10_hyp.txt
+Bleu_1: 0.179688
+Bleu_2: 0.096820
+Bleu_3: 0.056913
+Bleu_4: 0.035257
+CIDEr: 0.408349
+{'Bleu_1': 0.17968847212456182, 'Bleu_2': 0.09681963695604427, 'Bleu_3': 0.05691277863571484, 'Bleu_4': 0.0352572287993697, 'CIDEr': 0.4083491030875918}
+above is ../inference_results/large-attn,ffnlora-lr5e-4-epoch4_beam_hyp.txt
+Bleu_1: 0.187949
+Bleu_2: 0.087384
+Bleu_3: 0.045699
+Bleu_4: 0.025973
+CIDEr: 0.357586
+{'Bleu_1': 0.18794917937944552, 'Bleu_2': 0.08738398351669431, 'Bleu_3': 0.045698944255186925, 'Bleu_4': 0.02597295387710252, 'CIDEr': 0.357586339274396}
+above is ../inference_results/large-attn,ffnlora-lr5e-4-epoch4_sample_hyp.txt
